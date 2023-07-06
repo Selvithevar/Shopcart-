@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;700&display=swap');
+
+html{
+    font-size: 14px;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.carousel-inner{
+    object-fit: cover;
+    object-position: top;
+    height: 60vh;
+    /* width: 100%; */
+    overflow: hidden;
+}
+
+.old_price{
+    font-weight: bold;
+    color: red;
+}
+.new_price{
+    font-weight: bold;
+    background-color: green;
+    color: white;
+}
+.pic-box{
+    position: relative;
+}
+.hot{
+    background-color: orangered;
+    color: white;
+    width: 75px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    top:0;
+    right: 10px;
+    z-index:10;
+}
